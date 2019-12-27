@@ -15,6 +15,6 @@ double fahrenheitToKelvin(double f, double k); //function converts Fahrenheit te
 
 double kelvinToFahrenheit(double f, double k); //function converts Kelvin temperature to Fahrenheit
 
-double absolute(double n); //function returns absolute value
+long absolute(long n); //function returns absolute value
 
 #endif
