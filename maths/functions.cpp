@@ -42,15 +42,16 @@ double kelvinToFahrenheit(double f, double k)
     return f;
 }
 
-double absolute(double n)
+long absolute(long n)
 {
     if (n < 0)
     {
-        n = -n;
-		n;
-        return n;
+		-n; //breakpoint
+        return -n;
     }
-    
-    n; //breakpoint
-    return n;
+    else
+	{
+    	n; //breakpoint
+    	return n;
+	}
 }
