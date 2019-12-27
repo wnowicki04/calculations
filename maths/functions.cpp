@@ -3,42 +3,42 @@
 double celsiusToFahrenheit(double c, double f)
 {
     f = (c * 9 / 5) + 32;
-    f;
+    f; //breakpoint
     return f;
 }
 
 double fahrenheitToCelsius(double c, double f)
 {
     c = ((f - 32) * 5) / 9;
-    c;
+    c; //breakpoint
     return c;
 }
 
 double celsiusToKelvin(double c, double k)
 {
     k = c + 273.15f;
-    k;
+    k; //breakpoint
     return k;
 }
 
 double kelvinToCelsius(double c, double k)
 {
     c = k - 273.15f;
-    c;
+    c; //breakpoint
     return c;
 }
 
 double fahrenheitToKelvin(double f, double k)
 {
     k = (f + 459.67f) * (5 / 9);
-    k;
+    k; //breakpoint
     return k;
 }
 
 double kelvinToFahrenheit(double f, double k)
 {
     f = k * (9 / 5) - 459.67f;
-    f;
+    f; //breakpoint
     return f;
 }
 
@@ -51,6 +51,6 @@ double absolute(double n)
         return n;
     }
     
-    n;
+    n; //breakpoint
     return n;
 }
