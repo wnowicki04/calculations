@@ -10,7 +10,7 @@ int main()
     kelvinToCelsius(0, 380);
     fahrenheitToKelvin(86, 0);
     kelvinToFahrenheit(0, 532);
-    absolute(-30.5);
+    absolute(-30);
     //breakpoint
     return 0;
 }
